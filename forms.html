@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+    <style>
+        .detail {
+            margin: auto;
+            border: teal 1px solid;
+            position: absolute;
+            background-image: url("background.jfif");
+            /*padding: 10px;*/
+            color: white;
+            top: 100%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        input{
+            width: auto;
+            color: rebeccapurple;
+            border: red 1px solid;
+
+        }
+        input:hover {
+            background-color: coral;
+            transition: background-color .5s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+<form class="detail" action=" ">
+    <h1>FORMS PRACTICE</h1>
+
+    <label for="">Date:-</label>
+    <input type="Date" placeholder="date">
+    <br><br>
+
+    <label for="">Name:-</label>
+    <input type="text" placeholder="Name">
+
+    <br><br>
+    <label for="">Class:-</label>
+    <input type="text" placeholder="Class">
+
+    <br><br>
+    <label for="">Subject:-</label>
+    <input type="text" placeholder="Subject">
+
+    <br><br>
+    <label for="">Teacher:-</label>
+    <input type="text" placeholder="Teacher">
+
+    <br><br>
+    <p>Choose File</p>
+    <input type="File" placeholder="File">
+    <br><br>
+    <label for=""> Gender:- </label>
+    <select name="" id="" required>
+        <option value="Selected Gender">Selected</option>
+        <option value="">Male</option>
+        <option value="">Female</option>
+        <option value="">Prefer not to say</option>
+    </select>
+
+
+
+    <br><br>
+    <textarea name="" id="text area" cols="30" rows="10"></textarea>
+    <br><br>
+    <button type="Submit">submit</button>
+
+
+</form>
+</body>
+</html>
